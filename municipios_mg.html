@@ -1,0 +1,2073 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_592274021b1f334bcc662268b01f146b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_592274021b1f334bcc662268b01f146b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_592274021b1f334bcc662268b01f146b = L.map(
+                "map_592274021b1f334bcc662268b01f146b",
+                {
+                    center: [-18.5, -44.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_589c53eae6ba73932f38b13650d9e456 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_589c53eae6ba73932f38b13650d9e456.addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var marker_280e144aa7edefa95443529d4d8ca92d = L.marker(
+                [-16.18061617, -40.69765118],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_f6bbad87221205d5bbfde6d57b2baf37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f7ee55c9da6a17705f009d68f25c382 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2d053e0e9278e594b9c84c90bcf9aca = $(`<div id="html_c2d053e0e9278e594b9c84c90bcf9aca" style="width: 100.0%; height: 100.0%;">ALMENARA - SCPMSO</div>`)[0];
+                popup_3f7ee55c9da6a17705f009d68f25c382.setContent(html_c2d053e0e9278e594b9c84c90bcf9aca);
+            
+        
+
+        marker_280e144aa7edefa95443529d4d8ca92d.bindPopup(popup_3f7ee55c9da6a17705f009d68f25c382)
+        ;
+
+        
+    
+    
+            marker_280e144aa7edefa95443529d4d8ca92d.bindTooltip(
+                `<div>
+                     ALMENARA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_280e144aa7edefa95443529d4d8ca92d.setIcon(icon_f6bbad87221205d5bbfde6d57b2baf37);
+            
+    
+            var marker_929ae8a05b81f696daf242a217fd0ad5 = L.marker(
+                [-16.846765517814, -42.06609767116384],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_7b97495e3c2b26d679f811bcc1286e8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebc7440a242d5e953ab8a07b130a707c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6a8efbb87f3ea9890c7a6f756f4ce6b = $(`<div id="html_d6a8efbb87f3ea9890c7a6f756f4ce6b" style="width: 100.0%; height: 100.0%;">ARAÇUAÍ - SCPMSO</div>`)[0];
+                popup_ebc7440a242d5e953ab8a07b130a707c.setContent(html_d6a8efbb87f3ea9890c7a6f756f4ce6b);
+            
+        
+
+        marker_929ae8a05b81f696daf242a217fd0ad5.bindPopup(popup_ebc7440a242d5e953ab8a07b130a707c)
+        ;
+
+        
+    
+    
+            marker_929ae8a05b81f696daf242a217fd0ad5.bindTooltip(
+                `<div>
+                     ARAÇUAÍ - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_929ae8a05b81f696daf242a217fd0ad5.setIcon(icon_7b97495e3c2b26d679f811bcc1286e8a);
+            
+    
+            var marker_03e24d809d79429c2c708cd8688f589e = L.marker(
+                [-16.846481484353923, -42.06445247548774],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_c8fd430b47280abecf5c944152ad3d91 = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_e8c18a46190d8e9d23c5b47891a944f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf959c10aa00c9af554017d8dae61985 = $(`<div id="html_cf959c10aa00c9af554017d8dae61985" style="width: 100.0%; height: 100.0%;">ARAÇUAÍ - UAI</div>`)[0];
+                popup_e8c18a46190d8e9d23c5b47891a944f3.setContent(html_cf959c10aa00c9af554017d8dae61985);
+            
+        
+
+        marker_03e24d809d79429c2c708cd8688f589e.bindPopup(popup_e8c18a46190d8e9d23c5b47891a944f3)
+        ;
+
+        
+    
+    
+            marker_03e24d809d79429c2c708cd8688f589e.bindTooltip(
+                `<div>
+                     ARAÇUAÍ - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_03e24d809d79429c2c708cd8688f589e.setIcon(icon_c8fd430b47280abecf5c944152ad3d91);
+            
+    
+            var marker_36f80d247089f70fb01867b03e0acf2d = L.marker(
+                [-21.214794847405138, -43.77707751953631],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_d8f9291b7260cf4bfae3c189953586d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c7e14b5d21ec5eb06a37feacc4c58d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_727660771ff64c773e63affa4f75f744 = $(`<div id="html_727660771ff64c773e63affa4f75f744" style="width: 100.0%; height: 100.0%;">BARBACENA - SCPMSO</div>`)[0];
+                popup_9c7e14b5d21ec5eb06a37feacc4c58d9.setContent(html_727660771ff64c773e63affa4f75f744);
+            
+        
+
+        marker_36f80d247089f70fb01867b03e0acf2d.bindPopup(popup_9c7e14b5d21ec5eb06a37feacc4c58d9)
+        ;
+
+        
+    
+    
+            marker_36f80d247089f70fb01867b03e0acf2d.bindTooltip(
+                `<div>
+                     BARBACENA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36f80d247089f70fb01867b03e0acf2d.setIcon(icon_d8f9291b7260cf4bfae3c189953586d3);
+            
+    
+            var marker_81278914df0acda6859df669eb3fc4cc = L.marker(
+                [-21.2231800055013, -43.777918242405214],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_27128de26d349dad1e7e8f53778f53e0 = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_3a3a93144a5d5211001ad7ee65a689f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_072881a5284a75f99c3a0219fbb18251 = $(`<div id="html_072881a5284a75f99c3a0219fbb18251" style="width: 100.0%; height: 100.0%;">BARBACENA - UAI</div>`)[0];
+                popup_3a3a93144a5d5211001ad7ee65a689f0.setContent(html_072881a5284a75f99c3a0219fbb18251);
+            
+        
+
+        marker_81278914df0acda6859df669eb3fc4cc.bindPopup(popup_3a3a93144a5d5211001ad7ee65a689f0)
+        ;
+
+        
+    
+    
+            marker_81278914df0acda6859df669eb3fc4cc.bindTooltip(
+                `<div>
+                     BARBACENA - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_81278914df0acda6859df669eb3fc4cc.setIcon(icon_27128de26d349dad1e7e8f53778f53e0);
+            
+    
+            var marker_4e179c34d361d29f2b28ca4baa2f5aeb = L.marker(
+                [-19.92460854274449, -43.937779217724874],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_b00d0d85ab4039bd752cb3cb71930a92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2dc7063af36ed46577689f78cc19e702 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54eeefadaa13d6e276ee5b1f229340fa = $(`<div id="html_54eeefadaa13d6e276ee5b1f229340fa" style="width: 100.0%; height: 100.0%;">BELO HORIZONTE - SCPMSO</div>`)[0];
+                popup_2dc7063af36ed46577689f78cc19e702.setContent(html_54eeefadaa13d6e276ee5b1f229340fa);
+            
+        
+
+        marker_4e179c34d361d29f2b28ca4baa2f5aeb.bindPopup(popup_2dc7063af36ed46577689f78cc19e702)
+        ;
+
+        
+    
+    
+            marker_4e179c34d361d29f2b28ca4baa2f5aeb.bindTooltip(
+                `<div>
+                     BELO HORIZONTE - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4e179c34d361d29f2b28ca4baa2f5aeb.setIcon(icon_b00d0d85ab4039bd752cb3cb71930a92);
+            
+    
+            var marker_97847f0dec87968e165f40677b7b71b8 = L.marker(
+                [-19.923807161343927, -43.939057546561024],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_5a2eb3f8dc9f36cc72f122e7d2122e1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "id-card",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e428abc0581df7add757d12ef59aa232 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49b6725096d70795c780ddb735fbdc9f = $(`<div id="html_49b6725096d70795c780ddb735fbdc9f" style="width: 100.0%; height: 100.0%;">BELO HORIZONTE - IOF</div>`)[0];
+                popup_e428abc0581df7add757d12ef59aa232.setContent(html_49b6725096d70795c780ddb735fbdc9f);
+            
+        
+
+        marker_97847f0dec87968e165f40677b7b71b8.bindPopup(popup_e428abc0581df7add757d12ef59aa232)
+        ;
+
+        
+    
+    
+            marker_97847f0dec87968e165f40677b7b71b8.bindTooltip(
+                `<div>
+                     BELO HORIZONTE - IOF
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_97847f0dec87968e165f40677b7b71b8.setIcon(icon_5a2eb3f8dc9f36cc72f122e7d2122e1c);
+            
+    
+            var marker_14e7dbcf999a84913c0ee7c94d83b8c1 = L.marker(
+                [-19.915727088985705, -43.936720648414415],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_fd17670aed902c28f807583573457821 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "clipboard",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d3f6485f3053ec5e7fe8874b19fb902 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2702db2bd66e92f04ea567fcd43753f7 = $(`<div id="html_2702db2bd66e92f04ea567fcd43753f7" style="width: 100.0%; height: 100.0%;">BELO HORIZONTE - CET</div>`)[0];
+                popup_7d3f6485f3053ec5e7fe8874b19fb902.setContent(html_2702db2bd66e92f04ea567fcd43753f7);
+            
+        
+
+        marker_14e7dbcf999a84913c0ee7c94d83b8c1.bindPopup(popup_7d3f6485f3053ec5e7fe8874b19fb902)
+        ;
+
+        
+    
+    
+            marker_14e7dbcf999a84913c0ee7c94d83b8c1.bindTooltip(
+                `<div>
+                     BELO HORIZONTE - CET
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_14e7dbcf999a84913c0ee7c94d83b8c1.setIcon(icon_fd17670aed902c28f807583573457821);
+            
+    
+            var marker_2b3adfc8a529f70852dbf30a607b19ed = L.marker(
+                [-19.934960098685476, -43.9847698003341],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_06bb19d0517c19b054637333a2ab17cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "warehouse",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_692bc112f3e0ad4eeee512f95a20fd8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ded9a1df71cc8971288cb2954fb84159 = $(`<div id="html_ded9a1df71cc8971288cb2954fb84159" style="width: 100.0%; height: 100.0%;">BELO HORIZONTE - BOLSA DE MATERIAIS</div>`)[0];
+                popup_692bc112f3e0ad4eeee512f95a20fd8d.setContent(html_ded9a1df71cc8971288cb2954fb84159);
+            
+        
+
+        marker_2b3adfc8a529f70852dbf30a607b19ed.bindPopup(popup_692bc112f3e0ad4eeee512f95a20fd8d)
+        ;
+
+        
+    
+    
+            marker_2b3adfc8a529f70852dbf30a607b19ed.bindTooltip(
+                `<div>
+                     BELO HORIZONTE - BOLSA DE MATERIAIS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2b3adfc8a529f70852dbf30a607b19ed.setIcon(icon_06bb19d0517c19b054637333a2ab17cc);
+            
+    
+            var marker_7a9befa8d24f9491f45e2b1a8a483f6b = L.marker(
+                [-19.78963492, -42.14370705],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_5757610c0330c8f3b080a9adc0662296 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b9f6e841860ac4e58c446b1d9b20224 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cedd652c8ed36e95813205b96fce7ee8 = $(`<div id="html_cedd652c8ed36e95813205b96fce7ee8" style="width: 100.0%; height: 100.0%;">CARATINGA - SCPMSO</div>`)[0];
+                popup_8b9f6e841860ac4e58c446b1d9b20224.setContent(html_cedd652c8ed36e95813205b96fce7ee8);
+            
+        
+
+        marker_7a9befa8d24f9491f45e2b1a8a483f6b.bindPopup(popup_8b9f6e841860ac4e58c446b1d9b20224)
+        ;
+
+        
+    
+    
+            marker_7a9befa8d24f9491f45e2b1a8a483f6b.bindTooltip(
+                `<div>
+                     CARATINGA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7a9befa8d24f9491f45e2b1a8a483f6b.setIcon(icon_5757610c0330c8f3b080a9adc0662296);
+            
+    
+            var marker_425444c52110a6b2da0d666ffc23b116 = L.marker(
+                [-19.78963492, -42.14370705],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_155b2117f6ed43112616371d9e907941 = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_ce50132fd6912048eda8078d3f676c85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7aeab92799476d1d4943e76efd0925db = $(`<div id="html_7aeab92799476d1d4943e76efd0925db" style="width: 100.0%; height: 100.0%;">CARATINGA - UAI</div>`)[0];
+                popup_ce50132fd6912048eda8078d3f676c85.setContent(html_7aeab92799476d1d4943e76efd0925db);
+            
+        
+
+        marker_425444c52110a6b2da0d666ffc23b116.bindPopup(popup_ce50132fd6912048eda8078d3f676c85)
+        ;
+
+        
+    
+    
+            marker_425444c52110a6b2da0d666ffc23b116.bindTooltip(
+                `<div>
+                     CARATINGA - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_425444c52110a6b2da0d666ffc23b116.setIcon(icon_155b2117f6ed43112616371d9e907941);
+            
+    
+            var marker_467d5bd3b1243afdb8d5bba8c7da5f5e = L.marker(
+                [-19.52505284, -42.62434658],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_3c91e2e4f090b239fe5b589cb6e10452 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a49bb7eb7d3a78f33b4d44d4bce9fc6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31e82c1fd4a39051e191cbde319adc42 = $(`<div id="html_31e82c1fd4a39051e191cbde319adc42" style="width: 100.0%; height: 100.0%;">CORONEL FABRICIANO - SCPMSO</div>`)[0];
+                popup_a49bb7eb7d3a78f33b4d44d4bce9fc6c.setContent(html_31e82c1fd4a39051e191cbde319adc42);
+            
+        
+
+        marker_467d5bd3b1243afdb8d5bba8c7da5f5e.bindPopup(popup_a49bb7eb7d3a78f33b4d44d4bce9fc6c)
+        ;
+
+        
+    
+    
+            marker_467d5bd3b1243afdb8d5bba8c7da5f5e.bindTooltip(
+                `<div>
+                     CORONEL FABRICIANO - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_467d5bd3b1243afdb8d5bba8c7da5f5e.setIcon(icon_3c91e2e4f090b239fe5b589cb6e10452);
+            
+    
+            var marker_55bdb4910315fb16a0350a818d0f9d0c = L.marker(
+                [-19.52505284, -42.62434658],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_3ef702c8a644a24225622e41d1004977 = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_8d40ae1634b033a03588c6ba2eaea582 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebd95c46e508dbe60939ee3c918ef0b2 = $(`<div id="html_ebd95c46e508dbe60939ee3c918ef0b2" style="width: 100.0%; height: 100.0%;">CORONEL FABRICIANO - UAI</div>`)[0];
+                popup_8d40ae1634b033a03588c6ba2eaea582.setContent(html_ebd95c46e508dbe60939ee3c918ef0b2);
+            
+        
+
+        marker_55bdb4910315fb16a0350a818d0f9d0c.bindPopup(popup_8d40ae1634b033a03588c6ba2eaea582)
+        ;
+
+        
+    
+    
+            marker_55bdb4910315fb16a0350a818d0f9d0c.bindTooltip(
+                `<div>
+                     CORONEL FABRICIANO - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_55bdb4910315fb16a0350a818d0f9d0c.setIcon(icon_3ef702c8a644a24225622e41d1004977);
+            
+    
+            var marker_7e9c8bb4cb4d5399cc9eb696436aea0f = L.marker(
+                [-18.75548072, -44.42839897],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_e8384b96e821cc1aa2d5c197a56c460f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad36fb0e445e77ab015a10cd812b9d81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f08a92441b17d491c28e7e1c865b6bc = $(`<div id="html_1f08a92441b17d491c28e7e1c865b6bc" style="width: 100.0%; height: 100.0%;">CURVELO - SCPMSO</div>`)[0];
+                popup_ad36fb0e445e77ab015a10cd812b9d81.setContent(html_1f08a92441b17d491c28e7e1c865b6bc);
+            
+        
+
+        marker_7e9c8bb4cb4d5399cc9eb696436aea0f.bindPopup(popup_ad36fb0e445e77ab015a10cd812b9d81)
+        ;
+
+        
+    
+    
+            marker_7e9c8bb4cb4d5399cc9eb696436aea0f.bindTooltip(
+                `<div>
+                     CURVELO - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7e9c8bb4cb4d5399cc9eb696436aea0f.setIcon(icon_e8384b96e821cc1aa2d5c197a56c460f);
+            
+    
+            var marker_9c04d97535f83ae6ff41e09c3e2d9405 = L.marker(
+                [-18.24209272, -43.59445682],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_b91d614a9e0171f45677c22fa9985d28 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d674418b02814afd560697deb3e5586 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77b4bb84bab65b2d86ea993628e3ba3b = $(`<div id="html_77b4bb84bab65b2d86ea993628e3ba3b" style="width: 100.0%; height: 100.0%;">DIAMANTINA - SCPMSO</div>`)[0];
+                popup_2d674418b02814afd560697deb3e5586.setContent(html_77b4bb84bab65b2d86ea993628e3ba3b);
+            
+        
+
+        marker_9c04d97535f83ae6ff41e09c3e2d9405.bindPopup(popup_2d674418b02814afd560697deb3e5586)
+        ;
+
+        
+    
+    
+            marker_9c04d97535f83ae6ff41e09c3e2d9405.bindTooltip(
+                `<div>
+                     DIAMANTINA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9c04d97535f83ae6ff41e09c3e2d9405.setIcon(icon_b91d614a9e0171f45677c22fa9985d28);
+            
+    
+            var marker_c4ceb239462783dd2463deabb9ba0eb6 = L.marker(
+                [-20.141803891428932, -44.88538254840719],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_d8586071d676aebc1ee2a038356b2ac0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfaf13f08add15e23a1e9384f0e125bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_707f97d53754062ab49a3c080f621d88 = $(`<div id="html_707f97d53754062ab49a3c080f621d88" style="width: 100.0%; height: 100.0%;">DIVINÓPOLIS - SCPMSO</div>`)[0];
+                popup_dfaf13f08add15e23a1e9384f0e125bd.setContent(html_707f97d53754062ab49a3c080f621d88);
+            
+        
+
+        marker_c4ceb239462783dd2463deabb9ba0eb6.bindPopup(popup_dfaf13f08add15e23a1e9384f0e125bd)
+        ;
+
+        
+    
+    
+            marker_c4ceb239462783dd2463deabb9ba0eb6.bindTooltip(
+                `<div>
+                     DIVINÓPOLIS - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c4ceb239462783dd2463deabb9ba0eb6.setIcon(icon_d8586071d676aebc1ee2a038356b2ac0);
+            
+    
+            var marker_32fa3232c92adc5371ee6c4b531f8343 = L.marker(
+                [-20.14653551648135, -44.88793501957075],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_b32eb22cdf7ada413a76672bf3af8c6a = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_14515e9c88ddffc73b06d8ce681a240e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f7cc5adc5572890ac578d54a98c174e = $(`<div id="html_2f7cc5adc5572890ac578d54a98c174e" style="width: 100.0%; height: 100.0%;">DIVINÓPOLIS - UAI</div>`)[0];
+                popup_14515e9c88ddffc73b06d8ce681a240e.setContent(html_2f7cc5adc5572890ac578d54a98c174e);
+            
+        
+
+        marker_32fa3232c92adc5371ee6c4b531f8343.bindPopup(popup_14515e9c88ddffc73b06d8ce681a240e)
+        ;
+
+        
+    
+    
+            marker_32fa3232c92adc5371ee6c4b531f8343.bindTooltip(
+                `<div>
+                     DIVINÓPOLIS - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_32fa3232c92adc5371ee6c4b531f8343.setIcon(icon_b32eb22cdf7ada413a76672bf3af8c6a);
+            
+    
+            var marker_0e58748baef0344ea89d16fc36944c62 = L.marker(
+                [-18.8528824, -41.94708133],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_c6ac4185a7e297c7c031048aaf33a1f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e2db9b02fa6e2a273f6d469973084641 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9b5a251d916f37a39c5f133de87be5c = $(`<div id="html_b9b5a251d916f37a39c5f133de87be5c" style="width: 100.0%; height: 100.0%;">GOVERNADOR VALADARES - SCPMSO</div>`)[0];
+                popup_e2db9b02fa6e2a273f6d469973084641.setContent(html_b9b5a251d916f37a39c5f133de87be5c);
+            
+        
+
+        marker_0e58748baef0344ea89d16fc36944c62.bindPopup(popup_e2db9b02fa6e2a273f6d469973084641)
+        ;
+
+        
+    
+    
+            marker_0e58748baef0344ea89d16fc36944c62.bindTooltip(
+                `<div>
+                     GOVERNADOR VALADARES - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0e58748baef0344ea89d16fc36944c62.setIcon(icon_c6ac4185a7e297c7c031048aaf33a1f2);
+            
+    
+            var marker_5e432825f9dc38d6bc5db1339a937fde = L.marker(
+                [-19.63816949, -43.22395162],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_b5d0bf4efabfb1849628d6666c89534e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b875ee5af913bc1530fb53d1c57bc2ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62aa5fab34453cd7279c61c912779b68 = $(`<div id="html_62aa5fab34453cd7279c61c912779b68" style="width: 100.0%; height: 100.0%;">ITABIRA - SCPMSO</div>`)[0];
+                popup_b875ee5af913bc1530fb53d1c57bc2ac.setContent(html_62aa5fab34453cd7279c61c912779b68);
+            
+        
+
+        marker_5e432825f9dc38d6bc5db1339a937fde.bindPopup(popup_b875ee5af913bc1530fb53d1c57bc2ac)
+        ;
+
+        
+    
+    
+            marker_5e432825f9dc38d6bc5db1339a937fde.bindTooltip(
+                `<div>
+                     ITABIRA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5e432825f9dc38d6bc5db1339a937fde.setIcon(icon_b5d0bf4efabfb1849628d6666c89534e);
+            
+    
+            var marker_23c90387f3e123d9351fffccb5ad8e30 = L.marker(
+                [-15.79902846, -43.30768294],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_bb53236b3745f4570065e038f2da31ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_627610ee35069d42885e66440b4491c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd05ad69cbc3950ba377e9d1d0c7d19f = $(`<div id="html_fd05ad69cbc3950ba377e9d1d0c7d19f" style="width: 100.0%; height: 100.0%;">JANAÚBA - SCPMSO</div>`)[0];
+                popup_627610ee35069d42885e66440b4491c6.setContent(html_fd05ad69cbc3950ba377e9d1d0c7d19f);
+            
+        
+
+        marker_23c90387f3e123d9351fffccb5ad8e30.bindPopup(popup_627610ee35069d42885e66440b4491c6)
+        ;
+
+        
+    
+    
+            marker_23c90387f3e123d9351fffccb5ad8e30.bindTooltip(
+                `<div>
+                     JANAÚBA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_23c90387f3e123d9351fffccb5ad8e30.setIcon(icon_bb53236b3745f4570065e038f2da31ce);
+            
+    
+            var marker_b4ae7f004ffd2df89c9f1811e8227a2f = L.marker(
+                [-21.24287024, -44.99993111],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_62e86107da7e4b812dd4ea07a0e3840b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c7fee8f6ba326753218faaa4ae152c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a9d01ca7b6fb2067fafbd218a8092e5 = $(`<div id="html_7a9d01ca7b6fb2067fafbd218a8092e5" style="width: 100.0%; height: 100.0%;">LAVRAS - SCPMSO</div>`)[0];
+                popup_3c7fee8f6ba326753218faaa4ae152c8.setContent(html_7a9d01ca7b6fb2067fafbd218a8092e5);
+            
+        
+
+        marker_b4ae7f004ffd2df89c9f1811e8227a2f.bindPopup(popup_3c7fee8f6ba326753218faaa4ae152c8)
+        ;
+
+        
+    
+    
+            marker_b4ae7f004ffd2df89c9f1811e8227a2f.bindTooltip(
+                `<div>
+                     LAVRAS - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b4ae7f004ffd2df89c9f1811e8227a2f.setIcon(icon_62e86107da7e4b812dd4ea07a0e3840b);
+            
+    
+            var marker_6441b4878ee2ae57b2e91a3432a13d1f = L.marker(
+                [-21.24287024, -44.99993111],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_f2e09b3845d2d5b96aa1695dfede48b5 = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_bfdcf6e1c4cdc42557a01bc629e17898 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc2982040b2951bd775b5809b6b6db81 = $(`<div id="html_cc2982040b2951bd775b5809b6b6db81" style="width: 100.0%; height: 100.0%;">LAVRAS - UAI</div>`)[0];
+                popup_bfdcf6e1c4cdc42557a01bc629e17898.setContent(html_cc2982040b2951bd775b5809b6b6db81);
+            
+        
+
+        marker_6441b4878ee2ae57b2e91a3432a13d1f.bindPopup(popup_bfdcf6e1c4cdc42557a01bc629e17898)
+        ;
+
+        
+    
+    
+            marker_6441b4878ee2ae57b2e91a3432a13d1f.bindTooltip(
+                `<div>
+                     LAVRAS - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6441b4878ee2ae57b2e91a3432a13d1f.setIcon(icon_f2e09b3845d2d5b96aa1695dfede48b5);
+            
+    
+            var marker_84a21ea242b4c2c79c3a9b3f3d42c8fe = L.marker(
+                [-21.53072936, -42.64184413],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_29901e8ad606184155210804294293ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e171aa22152ecb1e17d18e1a69873be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f0b57a7dd74ec2f95c4811c4ee7da13 = $(`<div id="html_4f0b57a7dd74ec2f95c4811c4ee7da13" style="width: 100.0%; height: 100.0%;">LEOPOLDINA - SCPMSO</div>`)[0];
+                popup_8e171aa22152ecb1e17d18e1a69873be.setContent(html_4f0b57a7dd74ec2f95c4811c4ee7da13);
+            
+        
+
+        marker_84a21ea242b4c2c79c3a9b3f3d42c8fe.bindPopup(popup_8e171aa22152ecb1e17d18e1a69873be)
+        ;
+
+        
+    
+    
+            marker_84a21ea242b4c2c79c3a9b3f3d42c8fe.bindTooltip(
+                `<div>
+                     LEOPOLDINA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_84a21ea242b4c2c79c3a9b3f3d42c8fe.setIcon(icon_29901e8ad606184155210804294293ec);
+            
+    
+            var marker_5e03046bd8b179f037d56fc69a01bc32 = L.marker(
+                [-16.72270664, -43.86542243],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_f626e6c40f673df3ad21c905ef073edd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eeb263a0012d17c64a59dcdf5070323b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_349f566e983d1fdee0dc0ee2bc5eee5a = $(`<div id="html_349f566e983d1fdee0dc0ee2bc5eee5a" style="width: 100.0%; height: 100.0%;">MONTES CLAROS - SCPMSO</div>`)[0];
+                popup_eeb263a0012d17c64a59dcdf5070323b.setContent(html_349f566e983d1fdee0dc0ee2bc5eee5a);
+            
+        
+
+        marker_5e03046bd8b179f037d56fc69a01bc32.bindPopup(popup_eeb263a0012d17c64a59dcdf5070323b)
+        ;
+
+        
+    
+    
+            marker_5e03046bd8b179f037d56fc69a01bc32.bindTooltip(
+                `<div>
+                     MONTES CLAROS - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5e03046bd8b179f037d56fc69a01bc32.setIcon(icon_f626e6c40f673df3ad21c905ef073edd);
+            
+    
+            var marker_ad26e3bcef213f994e356bca2ec7c439 = L.marker(
+                [-21.130899932252895, -42.3631833330306],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_b40039e763db57c055b4eae1b8de93f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b94836c3900093268e2c397f49725321 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df1ec2e972df721fbc842e95b6cb6809 = $(`<div id="html_df1ec2e972df721fbc842e95b6cb6809" style="width: 100.0%; height: 100.0%;">MURIAÉ - SCPMSO</div>`)[0];
+                popup_b94836c3900093268e2c397f49725321.setContent(html_df1ec2e972df721fbc842e95b6cb6809);
+            
+        
+
+        marker_ad26e3bcef213f994e356bca2ec7c439.bindPopup(popup_b94836c3900093268e2c397f49725321)
+        ;
+
+        
+    
+    
+            marker_ad26e3bcef213f994e356bca2ec7c439.bindTooltip(
+                `<div>
+                     MURIAÉ - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ad26e3bcef213f994e356bca2ec7c439.setIcon(icon_b40039e763db57c055b4eae1b8de93f8);
+            
+    
+            var marker_5f9f0fc21e889145aa1d8397a4f4de0b = L.marker(
+                [-21.129799930768566, -42.3684263907029],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_10540839197e159287de7372ae001307 = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_6a4aea8bc852f63c7ce1e2e6fb48263b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83ca8944ab47ba4082880996cab53c3e = $(`<div id="html_83ca8944ab47ba4082880996cab53c3e" style="width: 100.0%; height: 100.0%;">MURIAÉ - UAI</div>`)[0];
+                popup_6a4aea8bc852f63c7ce1e2e6fb48263b.setContent(html_83ca8944ab47ba4082880996cab53c3e);
+            
+        
+
+        marker_5f9f0fc21e889145aa1d8397a4f4de0b.bindPopup(popup_6a4aea8bc852f63c7ce1e2e6fb48263b)
+        ;
+
+        
+    
+    
+            marker_5f9f0fc21e889145aa1d8397a4f4de0b.bindTooltip(
+                `<div>
+                     MURIAÉ - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5f9f0fc21e889145aa1d8397a4f4de0b.setIcon(icon_10540839197e159287de7372ae001307);
+            
+    
+            var marker_988d1cf7d440ebf998cdeb453ad76563 = L.marker(
+                [-17.21974191, -46.87541889],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_a6262fa6e36883faa0618a99754e734a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a2d000d19306fe95dd3b48c016d4e59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f8e7fb7754ea58b00dba79054a28c9f = $(`<div id="html_9f8e7fb7754ea58b00dba79054a28c9f" style="width: 100.0%; height: 100.0%;">PARACATU - SCPMSO</div>`)[0];
+                popup_7a2d000d19306fe95dd3b48c016d4e59.setContent(html_9f8e7fb7754ea58b00dba79054a28c9f);
+            
+        
+
+        marker_988d1cf7d440ebf998cdeb453ad76563.bindPopup(popup_7a2d000d19306fe95dd3b48c016d4e59)
+        ;
+
+        
+    
+    
+            marker_988d1cf7d440ebf998cdeb453ad76563.bindTooltip(
+                `<div>
+                     PARACATU - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_988d1cf7d440ebf998cdeb453ad76563.setIcon(icon_a6262fa6e36883faa0618a99754e734a);
+            
+    
+            var marker_8a9993fadddc4df21f8115c0c80b29d3 = L.marker(
+                [-17.21974191, -46.87541889],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_0872fcc04fb9c4787d010a84f80bed2a = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_d9500a352f22d0b06c18c47438c33cad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97cc2fae2347fc6289a6756161efd41a = $(`<div id="html_97cc2fae2347fc6289a6756161efd41a" style="width: 100.0%; height: 100.0%;">PARACATU - UAI</div>`)[0];
+                popup_d9500a352f22d0b06c18c47438c33cad.setContent(html_97cc2fae2347fc6289a6756161efd41a);
+            
+        
+
+        marker_8a9993fadddc4df21f8115c0c80b29d3.bindPopup(popup_d9500a352f22d0b06c18c47438c33cad)
+        ;
+
+        
+    
+    
+            marker_8a9993fadddc4df21f8115c0c80b29d3.bindTooltip(
+                `<div>
+                     PARACATU - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8a9993fadddc4df21f8115c0c80b29d3.setIcon(icon_0872fcc04fb9c4787d010a84f80bed2a);
+            
+    
+            var marker_291c33392d89636dfda03688633b0f5e = L.marker(
+                [-20.7192119, -46.61141257],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_6ceaaa79767b4789ad15a7cae871f8a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d373c5c63f910ca8fa30334a82e2343a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57cda2ea6cb440cd8a8d6f1c2d68e922 = $(`<div id="html_57cda2ea6cb440cd8a8d6f1c2d68e922" style="width: 100.0%; height: 100.0%;">PASSOS - SCPMSO</div>`)[0];
+                popup_d373c5c63f910ca8fa30334a82e2343a.setContent(html_57cda2ea6cb440cd8a8d6f1c2d68e922);
+            
+        
+
+        marker_291c33392d89636dfda03688633b0f5e.bindPopup(popup_d373c5c63f910ca8fa30334a82e2343a)
+        ;
+
+        
+    
+    
+            marker_291c33392d89636dfda03688633b0f5e.bindTooltip(
+                `<div>
+                     PASSOS - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_291c33392d89636dfda03688633b0f5e.setIcon(icon_6ceaaa79767b4789ad15a7cae871f8a0);
+            
+    
+            var marker_7fff4fd8c07a1b7954b1463e074c6ce7 = L.marker(
+                [-20.7192119, -46.61141257],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_ff00bc837c42f4dc6f3e33db3d45face = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_f7c1042ae01d8f317d3a216ef564e3f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c83df4949f8eacb59fa964a741521e08 = $(`<div id="html_c83df4949f8eacb59fa964a741521e08" style="width: 100.0%; height: 100.0%;">PASSOS - UAI</div>`)[0];
+                popup_f7c1042ae01d8f317d3a216ef564e3f0.setContent(html_c83df4949f8eacb59fa964a741521e08);
+            
+        
+
+        marker_7fff4fd8c07a1b7954b1463e074c6ce7.bindPopup(popup_f7c1042ae01d8f317d3a216ef564e3f0)
+        ;
+
+        
+    
+    
+            marker_7fff4fd8c07a1b7954b1463e074c6ce7.bindTooltip(
+                `<div>
+                     PASSOS - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7fff4fd8c07a1b7954b1463e074c6ce7.setIcon(icon_ff00bc837c42f4dc6f3e33db3d45face);
+            
+    
+            var marker_413342185c018977abef13ae316d9183 = L.marker(
+                [-18.59257082, -46.51591568],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_c9feb6dd6300bd9f385330843fcafd42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_07ed51257c042b8f821b358532be271f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4f91c19be22a4fca064436fa287f95d = $(`<div id="html_f4f91c19be22a4fca064436fa287f95d" style="width: 100.0%; height: 100.0%;">PATOS DE MINAS - SCPMSO</div>`)[0];
+                popup_07ed51257c042b8f821b358532be271f.setContent(html_f4f91c19be22a4fca064436fa287f95d);
+            
+        
+
+        marker_413342185c018977abef13ae316d9183.bindPopup(popup_07ed51257c042b8f821b358532be271f)
+        ;
+
+        
+    
+    
+            marker_413342185c018977abef13ae316d9183.bindTooltip(
+                `<div>
+                     PATOS DE MINAS - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_413342185c018977abef13ae316d9183.setIcon(icon_c9feb6dd6300bd9f385330843fcafd42);
+            
+    
+            var marker_8ac0b167938ffb3671006898c280cf4f = L.marker(
+                [-18.59257082, -46.51591568],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_466402060334f57baff8802fdce3f106 = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_205cf2e5d33b0b4e7fc51e69d05090f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_501051c6473c49fd9f430d5c2f9418a4 = $(`<div id="html_501051c6473c49fd9f430d5c2f9418a4" style="width: 100.0%; height: 100.0%;">PATOS DE MINAS - UAI</div>`)[0];
+                popup_205cf2e5d33b0b4e7fc51e69d05090f1.setContent(html_501051c6473c49fd9f430d5c2f9418a4);
+            
+        
+
+        marker_8ac0b167938ffb3671006898c280cf4f.bindPopup(popup_205cf2e5d33b0b4e7fc51e69d05090f1)
+        ;
+
+        
+    
+    
+            marker_8ac0b167938ffb3671006898c280cf4f.bindTooltip(
+                `<div>
+                     PATOS DE MINAS - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8ac0b167938ffb3671006898c280cf4f.setIcon(icon_466402060334f57baff8802fdce3f106);
+            
+    
+            var marker_23c58b68f6697dd6ef513566d4981b0a = L.marker(
+                [-21.78736358, -46.56641004],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_7da8dccf050a07d30052b16593803181 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6fec9ead03741425a8a3cbb18c11c155 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_879b94001021f1e19ead02df95bb0f8d = $(`<div id="html_879b94001021f1e19ead02df95bb0f8d" style="width: 100.0%; height: 100.0%;">POÇOS DE CALDAS - SCPMSO</div>`)[0];
+                popup_6fec9ead03741425a8a3cbb18c11c155.setContent(html_879b94001021f1e19ead02df95bb0f8d);
+            
+        
+
+        marker_23c58b68f6697dd6ef513566d4981b0a.bindPopup(popup_6fec9ead03741425a8a3cbb18c11c155)
+        ;
+
+        
+    
+    
+            marker_23c58b68f6697dd6ef513566d4981b0a.bindTooltip(
+                `<div>
+                     POÇOS DE CALDAS - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_23c58b68f6697dd6ef513566d4981b0a.setIcon(icon_7da8dccf050a07d30052b16593803181);
+            
+    
+            var marker_182b5381ea096e32c15165273681a563 = L.marker(
+                [-20.41664342, -42.90968427],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+        var icon_deed993265375d3a5803d4f86e9ae605 = L.icon({
+  "iconUrl": "https://images.seeklogo.com/logo-png/18/1/uai-unidade-de-atendimento-integrado-logo-png_seeklogo-180475.png",
+  "iconSize": [30, 30],
+  "iconAnchor": [15, 15],
+});
+        
+    
+        var popup_528bd42b399d79b4d095baf2742b7eea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a349eb07c55362531d9f23d2f8dba185 = $(`<div id="html_a349eb07c55362531d9f23d2f8dba185" style="width: 100.0%; height: 100.0%;">PONTE NOVA - UAI</div>`)[0];
+                popup_528bd42b399d79b4d095baf2742b7eea.setContent(html_a349eb07c55362531d9f23d2f8dba185);
+            
+        
+
+        marker_182b5381ea096e32c15165273681a563.bindPopup(popup_528bd42b399d79b4d095baf2742b7eea)
+        ;
+
+        
+    
+    
+            marker_182b5381ea096e32c15165273681a563.bindTooltip(
+                `<div>
+                     PONTE NOVA - UAI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_182b5381ea096e32c15165273681a563.setIcon(icon_deed993265375d3a5803d4f86e9ae605);
+            
+    
+            var marker_1251cb2a39080a3af9f5fb0251aad262 = L.marker(
+                [-22.230303, -45.93714428],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_85b078426d29ac3fa06c4b93db1a624e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_faab47b8bec5b171e2ca79325aafdeef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_718cc90d9bfffb6034b94a093f872d93 = $(`<div id="html_718cc90d9bfffb6034b94a093f872d93" style="width: 100.0%; height: 100.0%;">POUSO ALEGRE - SCPMSO</div>`)[0];
+                popup_faab47b8bec5b171e2ca79325aafdeef.setContent(html_718cc90d9bfffb6034b94a093f872d93);
+            
+        
+
+        marker_1251cb2a39080a3af9f5fb0251aad262.bindPopup(popup_faab47b8bec5b171e2ca79325aafdeef)
+        ;
+
+        
+    
+    
+            marker_1251cb2a39080a3af9f5fb0251aad262.bindTooltip(
+                `<div>
+                     POUSO ALEGRE - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1251cb2a39080a3af9f5fb0251aad262.setIcon(icon_85b078426d29ac3fa06c4b93db1a624e);
+            
+    
+            var marker_caa42c1a19e332e09876d03952752dae = L.marker(
+                [-21.13550897, -44.26097273],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_72265bceb097da4a17e3dbae42e62143 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a1bc0a7cdf204181433acee95f38e5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b4170f66701b924d341a246463e1ba8 = $(`<div id="html_4b4170f66701b924d341a246463e1ba8" style="width: 100.0%; height: 100.0%;">SÃO JOÃO DEL REI - SCPMSO</div>`)[0];
+                popup_8a1bc0a7cdf204181433acee95f38e5b.setContent(html_4b4170f66701b924d341a246463e1ba8);
+            
+        
+
+        marker_caa42c1a19e332e09876d03952752dae.bindPopup(popup_8a1bc0a7cdf204181433acee95f38e5b)
+        ;
+
+        
+    
+    
+            marker_caa42c1a19e332e09876d03952752dae.bindTooltip(
+                `<div>
+                     SÃO JOÃO DEL REI - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_caa42c1a19e332e09876d03952752dae.setIcon(icon_72265bceb097da4a17e3dbae42e62143);
+            
+    
+            var marker_dc596718ebbccd48959f42d781ac24d0 = L.marker(
+                [-17.86253981, -41.50963517],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_6d30601784acffab592ceb4e7336ab57 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43328ad5467519a309c3c368701058d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6560e19c1f0b3ed8e38c02a62d668bac = $(`<div id="html_6560e19c1f0b3ed8e38c02a62d668bac" style="width: 100.0%; height: 100.0%;">TEÓFILO OTONI - SCPMSO</div>`)[0];
+                popup_43328ad5467519a309c3c368701058d3.setContent(html_6560e19c1f0b3ed8e38c02a62d668bac);
+            
+        
+
+        marker_dc596718ebbccd48959f42d781ac24d0.bindPopup(popup_43328ad5467519a309c3c368701058d3)
+        ;
+
+        
+    
+    
+            marker_dc596718ebbccd48959f42d781ac24d0.bindTooltip(
+                `<div>
+                     TEÓFILO OTONI - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dc596718ebbccd48959f42d781ac24d0.setIcon(icon_6d30601784acffab592ceb4e7336ab57);
+            
+    
+            var marker_eecda969f5f15c0a316ae9e83fcbe2cb = L.marker(
+                [-21.11859695, -42.93678646],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_3ba1250f6d6d09b71ca86fff3509524a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_719ddf5af6611d52eadf78fe0e1e9b80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b56524dae1b195e3819f631b0a90595d = $(`<div id="html_b56524dae1b195e3819f631b0a90595d" style="width: 100.0%; height: 100.0%;">UBÁ - SCPMSO</div>`)[0];
+                popup_719ddf5af6611d52eadf78fe0e1e9b80.setContent(html_b56524dae1b195e3819f631b0a90595d);
+            
+        
+
+        marker_eecda969f5f15c0a316ae9e83fcbe2cb.bindPopup(popup_719ddf5af6611d52eadf78fe0e1e9b80)
+        ;
+
+        
+    
+    
+            marker_eecda969f5f15c0a316ae9e83fcbe2cb.bindTooltip(
+                `<div>
+                     UBÁ - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eecda969f5f15c0a316ae9e83fcbe2cb.setIcon(icon_3ba1250f6d6d09b71ca86fff3509524a);
+            
+    
+            var marker_70c8874e5e2ba4c1380d79c3c8c3585b = L.marker(
+                [-19.71353461, -47.9836249],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_71f6dd0808c2a6c38a07cbdddd34c247 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47503bf58f31af28bad48ddb20fdb9f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a042c40e16b5795460d3f582b28aa21 = $(`<div id="html_9a042c40e16b5795460d3f582b28aa21" style="width: 100.0%; height: 100.0%;">UBERABA - SCPMSO</div>`)[0];
+                popup_47503bf58f31af28bad48ddb20fdb9f3.setContent(html_9a042c40e16b5795460d3f582b28aa21);
+            
+        
+
+        marker_70c8874e5e2ba4c1380d79c3c8c3585b.bindPopup(popup_47503bf58f31af28bad48ddb20fdb9f3)
+        ;
+
+        
+    
+    
+            marker_70c8874e5e2ba4c1380d79c3c8c3585b.bindTooltip(
+                `<div>
+                     UBERABA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_70c8874e5e2ba4c1380d79c3c8c3585b.setIcon(icon_71f6dd0808c2a6c38a07cbdddd34c247);
+            
+    
+            var marker_f565cb0b18e0ac5ddc2e7f5305eaa499 = L.marker(
+                [-18.91899861, -48.27795018],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_aee9ec3b89aeea6f10487ee87200ea60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5626c4eeb448783bcecf0e9bbaea439d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3c63f30a12cf7678f7a3aebb945d155 = $(`<div id="html_e3c63f30a12cf7678f7a3aebb945d155" style="width: 100.0%; height: 100.0%;">UBERLÂNDIA - SCPMSO</div>`)[0];
+                popup_5626c4eeb448783bcecf0e9bbaea439d.setContent(html_e3c63f30a12cf7678f7a3aebb945d155);
+            
+        
+
+        marker_f565cb0b18e0ac5ddc2e7f5305eaa499.bindPopup(popup_5626c4eeb448783bcecf0e9bbaea439d)
+        ;
+
+        
+    
+    
+            marker_f565cb0b18e0ac5ddc2e7f5305eaa499.bindTooltip(
+                `<div>
+                     UBERLÂNDIA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f565cb0b18e0ac5ddc2e7f5305eaa499.setIcon(icon_aee9ec3b89aeea6f10487ee87200ea60);
+            
+    
+            var marker_6f96f504f58a2f2ac5a05bfe45c79ee5 = L.marker(
+                [-21.55708004, -45.43188614],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_4064e6fcefbe08a32b0d9653fd534ce6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15c8ad1da8effdde02e380bcc75f1dc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5052ac85fb314babaf44e8c789a22da1 = $(`<div id="html_5052ac85fb314babaf44e8c789a22da1" style="width: 100.0%; height: 100.0%;">VARGINHA - SCPMSO</div>`)[0];
+                popup_15c8ad1da8effdde02e380bcc75f1dc2.setContent(html_5052ac85fb314babaf44e8c789a22da1);
+            
+        
+
+        marker_6f96f504f58a2f2ac5a05bfe45c79ee5.bindPopup(popup_15c8ad1da8effdde02e380bcc75f1dc2)
+        ;
+
+        
+    
+    
+            marker_6f96f504f58a2f2ac5a05bfe45c79ee5.bindTooltip(
+                `<div>
+                     VARGINHA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f96f504f58a2f2ac5a05bfe45c79ee5.setIcon(icon_4064e6fcefbe08a32b0d9653fd534ce6);
+            
+    
+            var marker_db0be57c89bed260d1e3782f6bf865a3 = L.marker(
+                [-20.75207201, -42.87947738],
+                {
+}
+            ).addTo(map_592274021b1f334bcc662268b01f146b);
+        
+    
+            var icon_53cba806c5ffc1d0d836d26d395aa8f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stethoscope",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33483206cc1e1c787ce05d30e2960d1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e239ca44bf83af8d00cbe0fd3d175ddb = $(`<div id="html_e239ca44bf83af8d00cbe0fd3d175ddb" style="width: 100.0%; height: 100.0%;">VIÇOSA - SCPMSO</div>`)[0];
+                popup_33483206cc1e1c787ce05d30e2960d1c.setContent(html_e239ca44bf83af8d00cbe0fd3d175ddb);
+            
+        
+
+        marker_db0be57c89bed260d1e3782f6bf865a3.bindPopup(popup_33483206cc1e1c787ce05d30e2960d1c)
+        ;
+
+        
+    
+    
+            marker_db0be57c89bed260d1e3782f6bf865a3.bindTooltip(
+                `<div>
+                     VIÇOSA - SCPMSO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_db0be57c89bed260d1e3782f6bf865a3.setIcon(icon_53cba806c5ffc1d0d836d26d395aa8f1);
+            
+</script>
+</html>
